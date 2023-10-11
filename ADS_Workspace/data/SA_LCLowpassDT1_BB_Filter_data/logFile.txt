@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 551.shp Oct 27 2021, MINT version 5
+    (64-bit windows built: Thu Oct 28, 2021 03:25:42 +0000)
+
+
+***** Simulation started at Sat Oct  7 18:30:17 2023
+      Running on host: "Owen-Laptop"
+      In Directory: "C:\Users\owenr\Desktop\Direct IQ Transciever\ADS_Workspace\data"
+      Process ID: 68556
+
+
+SP SP1[1] <ADS_Workspace_lib:SA_LCLowpassDT1_BB_Filter:schematic>   freq=(100 kHz->6 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.76 seconds.
+

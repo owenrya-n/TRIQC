@@ -1,0 +1,35 @@
+; Top Design: "ADS_Workspace_lib:SA_LCLowpassDT1_BB_Filter:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="ADS_Workspace_lib:SA_LCLowpassDT1_BB_Filter:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: ADS_Workspace_lib
+; Cell Name: DA_LCLowpassDT1_BB_Filter
+; View Name: schematic
+define DA_LCLowpassDT1_BB_Filter ( P1  P2 ) 
+parameters  Fp=1 GHz  Fs=2 GHz  Ap=3 dB  As=20 dB  N=0  ResponseType=1  MinLorC=4  Rg=50 Ohm  Rl=50 Ohm  MaxRealizations=25 
+C:C3  P2 0 C=10.477108 nF 
+L:L2  N__2 P2 L=76.488711 uH R=1e-12 Ohm Noise=yes  
+C:C2  N__2 0 C=48.704639 nF 
+L:L1  P1 N__2 L=166.253654 uH R=1e-12 Ohm Noise=yes  
+C:C1  P1 0 C=105.854283 nF 
+end DA_LCLowpassDT1_BB_Filter
+
+aele Fp=0.05 MHz;Fs=1 MHz;Ap=3 dB;As=80 dB;N=5;ResponseType=5;MinLorC=4;Rg=266 Ohm;Rl=50 Ohm;MaxRealizations=25;
+DA_LCLowpassDT1_BB_Filter:DA_LCLowpassDT1  N__0 N__1 Fp=0.05 MHz Fs=1 MHz Ap=3 dB As=80 dB N=5 ResponseType=5 MinLorC=4 Rg=266 Ohm Rl=50 Ohm MaxRealizations=25 
+Port:Term1  N__0 0 Num=1 Z=266 Ohm Noise=yes 
+Port:Term2  N__1 0 Num=2 Z=50 Ohm Noise=yes 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no CalcGroupDelay=yes GroupDelayAperture=1e-4 \
+FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=100 kHz Stop=6 GHz Step=20 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
