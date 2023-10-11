@@ -1,5 +1,8 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic x1="-1" geom="1,0,2,155,42,1536,921,1920,1200" y1="-8" cell="Antenna" view="schematic" height="1129" width="1920" lib="ADS_Workspace_lib"/>
+        <Schematic x1="-1" geom="1,0,2,175,62,1536,921,1920,1200" y1="-8" cell="Top_level" view="schematic" height="1129" width="1920" lib="ADS_Workspace_lib"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
