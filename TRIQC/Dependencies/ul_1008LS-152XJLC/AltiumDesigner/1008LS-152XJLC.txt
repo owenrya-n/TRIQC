@@ -1,0 +1,79 @@
+# Created by Ultra Librarian 8.3.339 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "IND_1008LS")
+Pad (Name "1") (Location -45, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 40, 100) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 45, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 40, 100) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-23, 53)
+Point (23, 53)
+Point (23, -53)
+Point (-23, -53)
+EndPolygon
+Line (Width 6) (Start -75, -60) (End -75, 60) (Layer Mechanical15) 
+Line (Width 6) (Start -75, 60) (End -67.5, 60) (Layer Mechanical15) 
+Line (Width 6) (Start 67.5, 60) (End 75, 60) (Layer Mechanical15) 
+Line (Width 6) (Start 75, 60) (End 75, -60) (Layer Mechanical15) 
+Line (Width 6) (Start 75, -60) (End 67.5, -60) (Layer Mechanical15) 
+Line (Width 6) (Start -67.5, -60) (End -75, -60) (Layer Mechanical15) 
+Line (Width 6) (Start -67.5, -65) (End -67.5, -60) (Layer Mechanical15) 
+Line (Width 6) (Start -67.5, 60) (End -67.5, 65) (Layer Mechanical15) 
+Line (Width 6) (Start -67.5, 65) (End 67.5, 65) (Layer Mechanical15) 
+Line (Width 6) (Start 67.5, 65) (End 67.5, 60) (Layer Mechanical15) 
+Line (Width 6) (Start 67.5, -60) (End 67.5, -65) (Layer Mechanical15) 
+Line (Width 6) (Start 67.5, -65) (End -67.5, -65) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-75, -60)
+Point (-75, 60)
+Point (-67.5, 60)
+Point (-67.5, 65)
+Point (67.5, 65)
+Point (67.5, 60)
+Point (75, 60)
+Point (75, -60)
+Point (67.5, -60)
+Point (67.5, -65)
+Point (-67.5, -65)
+Point (-67.5, -60)
+EndPolygon
+Line (Width 6) (Start -16.53773021, -60) (End 16.53773021, -60) (Layer TopOverlay) 
+Line (Width 6) (Start 16.53773021, 60) (End -16.53773021, 60) (Layer TopOverlay) 
+Line (Width 1) (Start -57.5, -55) (End 57.5, -55) (Layer Mechanical13) 
+Line (Width 1) (Start 57.5, -55) (End 57.5, 55) (Layer Mechanical13) 
+Line (Width 1) (Start 57.5, 55) (End -57.5, 55) (Layer Mechanical13) 
+Line (Width 1) (Start -57.5, 55) (End -57.5, -55) (Layer Mechanical13) 
+Arc (Width 0) (Radius 0) (Location -54.5, 0) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Step (Name IND_1008LS.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "1008LS-152XJLC") (PartCount 1) (DesPrefix "L?")
+Pin (Location 0, 500) (Rotation 90) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 0) (PartSwap 1) (PinSeq 1) (Part 1)
+Pin (Location 0, 100) (Rotation 270) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 0, 300) (End -50, 300) (Part 1)
+Line (Width 8) (Start 0, 200) (End -50, 200) (Part 1)
+Line (Width 8) (Start 0, 500) (End -50, 500) (Part 1)
+Line (Width 8) (Start 0, 100) (End -50, 100) (Part 1)
+Line (Width 8) (Start 0, 400) (End -50, 400) (Part 1)
+Arc (Width 8) (Radius 50) (Location -50, 250) (StartAngle 90) (EndAngle 270) (Part 1)
+Arc (Width 8) (Radius 50) (Location -50, 150) (StartAngle 90) (EndAngle 270) (Part 1)
+Arc (Width 8) (Radius 50) (Location -50, 450) (StartAngle 90) (EndAngle 270) (Part 1)
+Arc (Width 8) (Radius 50) (Location -50, 350) (StartAngle 90) (EndAngle 270) (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2023 Ultra Librarian. All rights reserved.") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Coilcraft") (Part 1)
+Parameter (Name "Manufacturer_Part_Number") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "1008LS-152XJLC") (Part 1)
+Parameter (Name "RefDes") (Location 50, 350) (Height 137) (Rotation 0) (Justification CenterLeft) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 50, 100) (Height 137) (Rotation 0) (Justification CenterLeft) (Value "DEV") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Comment (Value "1008LS-152XJLC") (Part 1)
+Footprint (Name "IND_1008LS")
+EndComponent
+EndComponents
