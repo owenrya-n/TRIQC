@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      owenr
+HostName                       Owen-Laptop
+ProcessIdentifier              19524
+ProcessCreationTime_UTC        1704422153
+ProcessCreationTime_Readable   Thu Jan  4 18:35:53 2024 Pacific Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\owenr\Documents\TRIQC\ADS_Workspace\ADS_Workspace_lib\cell_1\schematic\sch.oa.cdslck
+TimeEditLocked                 Thu Jan  4 18:36:31 2024 Pacific Standard Time
