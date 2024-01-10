@@ -1,8 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Schematic x1="-1" width="1920" view="schematic" cell="cell_1" height="1129" lib="ADS_Workspace_lib" geom="1,0,3,195,82,1536,921,1920,1200" y1="-8"/>
-        <Schematic x1="-1" width="1920" view="schematic" cell="DA_LCHighpassDT1_cell_1" height="1129" lib="ADS_Workspace_lib" geom="1,0,3,215,102,1536,921,1920,1200" y1="-8"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

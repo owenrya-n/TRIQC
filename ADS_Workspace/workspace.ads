@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="5" Version="100">
+<ADSWorkspace Revision="12" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="de_sim.cfg" />
@@ -27,43 +27,14 @@
         <Library Name="ads_pelib" />
         <Library Name="ADS_Workspace_lib" />
         <Cell Name="ADS_Workspace_lib:BB_Filter" />
-        <Library Name="1xEV" />
-        <Library Name="3GPPFDD" />
-        <Library Name="3GPPFDD_10_99" />
-        <Library Name="Antennas_and_Propagation" />
-        <Library Name="CDMA" />
-        <Library Name="cdma2000" />
-        <Library Name="Circuit_Cosimulation" />
-        <Library Name="CMMB" />
-        <Library Name="Controllers" />
-        <Library Name="DTMB" />
-        <Library Name="DTV" />
-        <Library Name="EDGE" />
-        <Library Name="GSM" />
-        <Library Name="HDL_Blocks" />
-        <Library Name="HSDPA" />
-        <Library Name="HSUPA" />
-        <Library Name="Instruments" />
-        <Library Name="Interactive_Controls_and_Displays" />
-        <Library Name="LTE" />
-        <Library Name="Numeric" />
-        <Library Name="Obsolete" />
-        <Library Name="Signal_Converters" />
-        <Library Name="Simulation_Sequencing" />
-        <Library Name="Sinks" />
-        <Library Name="SystemVue_Cosimulation" />
-        <Library Name="TDSCDMA" />
-        <Library Name="Timed" />
-        <Library Name="UMB" />
-        <Library Name="UWB" />
-        <Library Name="WLAN" />
-        <Library Name="WLAN_11n" />
-        <Library Name="WMAN" />
-        <Library Name="WMAN_16e" />
         <Log Name="netlist.log" />
         <Dataset Name="SA_LCLowpassDT1_BB_Filter.ds" />
         <Data_Files Name="SA_LCLowpassDT1_BB_Filter.ds" />
         <Data_Files Name="SA_LCLowpassDT1_BB_Filter_data\logFile.txt" />
         <Cell Name="ADS_Workspace_lib:BB Amp" />
+        <Cell Name="ADS_Workspace_lib:Antenna" />
+        <Cell Name="ADS_Workspace_lib:Frontend_Amp" />
+        <Cell Name="ADS_Workspace_lib:Top_level" />
+        <Cell Name="ADS_Workspace_lib:cell_1" />
     </Workspace>
 </ADSWorkspace>
