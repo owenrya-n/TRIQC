@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2024-01-11T01:32:50Z");
+	set(ddoId, "FileModifiedDateAndTime", "2024-01-11T01:23:24Z");
 	set(ddoId, "FileCreatedDateAndTime", "2024-01-11T01:13:07Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -33,12 +33,12 @@ if (pageId == NULL) pageId = get_new(ddoId, "Page");
 goId0 = get_new(pageId, "Listing");
 // Base Class Object:
 	set(goId0, "Name", "");
-	set(goId0, "Uid", 769081886);
+	set(goId0, "Uid", 1919678840);
 // Graphical Object:
-	set(goId0, "Right", 7750);
-	set(goId0, "Bottom", 3250);
-	set(goId0, "Left", 500);
-	set(goId0, "Top", 1625);
+	set(goId0, "Right", 7000);
+	set(goId0, "Bottom", 2750);
+	set(goId0, "Left", 875);
+	set(goId0, "Top", 1000);
 	set(goId0, "Zrot", 0.0);
 	set(goId0, "Yrot", 0.0);
 	set(goId0, "Xrot", 0.0);
@@ -79,7 +79,7 @@ goId0 = get_new(pageId, "Listing");
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
 	if (axisID != NULL) {
-		 set(axisID, "Uid", 1301168490);
+		 set(axisID, "Uid", 1193047634);
 		 set(axisID, "Color", 104);
 		 set(axisID, "UserLabel", "");
 		 set(axisID, "LabelColor", 0);
@@ -106,7 +106,7 @@ traceID = get_new(goId0, "Trace", "S(1,1)", "", "");
 	if (traceID != NULL) {
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 1);
-		set(traceID, "Uid", 281296939);
+		set(traceID, "Uid", 1301108384);
 		set(traceID, "UIIndex", 0);
 		set(traceID, "Status", 43008);
 	}
@@ -117,7 +117,7 @@ traceID = get_new(goId0, "Trace", "S(1,2)", "", "");
 	if (traceID != NULL) {
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 5);
-		set(traceID, "Uid", 1396460601);
+		set(traceID, "Uid", 1230418123);
 		set(traceID, "UIIndex", 0);
 		set(traceID, "Status", 43008);
 	}
@@ -128,7 +128,7 @@ traceID = get_new(goId0, "Trace", "S(2,1)", "", "");
 	if (traceID != NULL) {
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 6);
-		set(traceID, "Uid", 196720070);
+		set(traceID, "Uid", 2048023012);
 		set(traceID, "UIIndex", 0);
 		set(traceID, "Status", 43008);
 	}
@@ -139,29 +139,7 @@ traceID = get_new(goId0, "Trace", "S(2,2)", "", "");
 	if (traceID != NULL) {
 		set(traceID, "TraceType", ddsAutomaticTraceType);
 		set(traceID, "Color", 4);
-		set(traceID, "Uid", 2090294334);
-		set(traceID, "UIIndex", 0);
-		set(traceID, "Status", 43008);
-	}
-traceID = get_new(goId0, "Trace", "PortZ(1)", "", "");
-// Text trace:
-	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
-// Trace:
-	if (traceID != NULL) {
-		set(traceID, "TraceType", ddsAutomaticTraceType);
-		set(traceID, "Color", 17);
-		set(traceID, "Uid", 1215122361);
-		set(traceID, "UIIndex", 0);
-		set(traceID, "Status", 43008);
-	}
-traceID = get_new(goId0, "Trace", "PortZ(2)", "", "");
-// Text trace:
-	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
-// Trace:
-	if (traceID != NULL) {
-		set(traceID, "TraceType", ddsAutomaticTraceType);
-		set(traceID, "Color", 3);
-		set(traceID, "Uid", 940338473);
+		set(traceID, "Uid", 880896035);
 		set(traceID, "UIIndex", 0);
 		set(traceID, "Status", 43008);
 	}

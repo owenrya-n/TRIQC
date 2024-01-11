@@ -2,10 +2,10 @@
 ; Netlisted using Hierarchy Policy: "Standard"
 
 Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="ADS_Workspace_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
-MLIN2:TL1  N__2 N__0 Subst="Subst1" W=4.67 mil L=173.03 mil Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MTEE_ADS:Tee1  N__6 N__2 N__5 Subst="Subst1" W1=4.67 mil W2=1 mil W3=4.67 mil 
-MLIN2:TL2  N__5 DC Subst="Subst1" W=1 mil L=319.4389764 mil Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
-MLIN2:TL3  N__6 N__1 Subst="Subst1" W=4.67 mil L=173.03 mil Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL1  N__2 N__0 Subst="Subst1" W=23.631378 L=287.907874 mil Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee1  N__6 N__2 N__5 Subst="Subst1" W1=4.67 mil W2=4.67 mil W3=4.67 mil 
+MLIN2:TL2  N__5 DC Subst="Subst1" W=4 mil L=319.4389764 mil Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL3  N__6 N__1 Subst="Subst1" W=23.631378 L=287.907874 Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
 C:C1  DC 0 C=100pf 
 Port:Term1  N__1 0 Num=1 Z=50 Ohm Noise=yes 
 Port:Term2  N__0 0 Num=2 Z=50 Ohm Noise=yes 
@@ -23,4 +23,4 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
-model Subst1 MSUB H=10.0 mil Er=9.6 Mur=1 Cond=1.0E+50 Hu=3.93701e+34 mil T=0 mil TanD=0 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+model Subst1 MSUB H=2.8 Er=4.2 Mur=1 Cond=1.0E+50 Hu=3.93701e+34 mil T=1.378 mil TanD=0 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 

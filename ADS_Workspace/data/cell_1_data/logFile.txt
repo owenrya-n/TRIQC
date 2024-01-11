@@ -3,19 +3,27 @@ hpeesofsim (*) 551.shp Oct 27 2021, MINT version 5
     (64-bit windows built: Thu Oct 28, 2021 03:25:42 +0000)
 
 
-***** Simulation started at Wed Jan 10 17:13:06 2024
+***** Simulation started at Wed Jan 10 17:42:03 2024
       Running on host: "Owen-Laptop"
       In Directory: "C:\Users\owenr\Documents\TRIQC\ADS_Workspace\data"
-      Process ID: 22756
-
-Warning detected by hpeesofsim in Substrate model during netlist flattening.
-    Simulations referencing substrate `Subst1' will not include metal loss
-    because metal thickness is zero.
+      Process ID: 17264
 
 
 SP SP1[1] <ADS_Workspace_lib:cell_1:schematic>   freq=(5.725 GHz->5.8 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000102) < MinRecommendValue(0.028000) OR UserValue > MaxRecommendValue(280.000000) for 'W' in `TL2'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000119) < MinRecommendValue(0.280000) OR UserValue > MaxRecommendValue(28.000000) for 'W1' in `Tee1'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000119) < MinRecommendValue(0.280000) OR UserValue > MaxRecommendValue(28.000000) for 'W2' in `Tee1'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.000119) < MinRecommendValue(0.280000) OR UserValue > MaxRecommendValue(28.000000) for 'W3' in `Tee1'
+
 
 
 Resource usage:
-  Total stopwatch time     =     0.95 seconds.
+  Total stopwatch time     =     0.75 seconds.
 
