@@ -1,0 +1,39 @@
+"freq
+References : ['S(1,1)','S(1,2)','S(2,1)','S(2,2)']
+Dependency : [freq]
+Num. Points : [9]
+Matrix Size : scalar
+Type : Real","S(1,1)
+References : []
+Dependency : [freq]
+Num. Points : [9]
+Matrix Size : scalar
+Type : Complex
+Complex Format : Mag/Deg","S(1,2)
+References : []
+Dependency : [freq]
+Num. Points : [9]
+Matrix Size : scalar
+Type : Complex
+Complex Format : Mag/Deg","S(2,1)
+References : []
+Dependency : [freq]
+Num. Points : [9]
+Matrix Size : scalar
+Type : Complex
+Complex Format : Mag/Deg","S(2,2)
+References : []
+Dependency : [freq]
+Num. Points : [9]
+Matrix Size : scalar
+Type : Complex
+Complex Format : Mag/Deg"
+5.725 GHz,0.219 / 98.530,0.976 / -171.248,0.976 / -171.248,0.219 / 98.973
+5.735 GHz,0.223 / 98.074,0.975 / -171.707,0.975 / -171.707,0.223 / 98.512
+5.745 GHz,0.228 / 97.617,0.974 / -172.166,0.974 / -172.166,0.228 / 98.051
+5.755 GHz,0.232 / 97.158,0.973 / -172.627,0.973 / -172.627,0.232 / 97.589
+5.765 GHz,0.237 / 96.699,0.972 / -173.088,0.972 / -173.088,0.237 / 97.125
+5.775 GHz,0.241 / 96.238,0.970 / -173.551,0.970 / -173.551,0.241 / 96.661
+5.785 GHz,0.246 / 95.776,0.969 / -174.014,0.969 / -174.014,0.246 / 96.196
+5.795 GHz,0.250 / 95.313,0.968 / -174.479,0.968 / -174.479,0.250 / 95.729
+5.800 GHz,0.253 / 95.081,0.968 / -174.711,0.968 / -174.711,0.253 / 95.496
